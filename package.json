@@ -12,15 +12,26 @@
   ],
   "scripts": {
     "build": "tsc",
-    "fmt": "prettier --write ."
+    "fmt": "prettier --write .",
+    "lint": "eslint './**/*.{ts,json}'"
   },
   "devDependencies": {
-    "@ryanep/prettier-config": "^0.0.1",
-    "@types/prettier": "^2.7.0",
-    "prettier": "^2.7.1",
-    "typescript": "^4.7.4"
+    "@commitlint/cli": "^17.7.2",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@ryanep/eslint-config": "^0.3.1",
+    "@ryanep/prettier-config": "^1.0.2",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^11.0.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^11.0.0",
+    "@semantic-release/release-notes-generator": "^12.0.0",
+    "@types/prettier": "^2.7.3",
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.3",
+    "semantic-release": "^22.0.5",
+    "typescript": "^5.2.2"
   },
   "peerDependencies": {
-    "prettier": "^2.x"
+    "prettier": "^3.x"
   }
 }
