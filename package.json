@@ -19,7 +19,7 @@
     "@commitlint/cli": "^17.7.2",
     "@commitlint/config-conventional": "^17.7.0",
     "@ryanep/eslint-config": "^0.3.1",
-    "@ryanep/prettier-config": "^1.0.2",
+    "@ryanep/prettier-config": "^1.1.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^11.0.0",
     "@semantic-release/git": "^10.0.1",
@@ -33,8 +33,5 @@
   },
   "peerDependencies": {
     "prettier": "^3.x"
-  },
-  "overrides": {
-    "prettier": "^3.0.3"
   }
 }
