@@ -1,22 +1,22 @@
 import type { Config } from "prettier";
 
 const config: Config = {
-  semi: true,
-  singleQuote: false,
-  jsxSingleQuote: false,
-  trailingComma: "es5",
-  bracketSpacing: true,
-  bracketSameLine: false,
-  jsxBracketSameLine: false,
-  requirePragma: false,
-  insertPragma: false,
-  proseWrap: "preserve",
   arrowParens: "always",
-  endOfLine: "lf",
-  quoteProps: "consistent",
-  vueIndentScriptAndStyle: false,
+  bracketSameLine: false,
+  bracketSpacing: true,
   embeddedLanguageFormatting: "auto",
+  endOfLine: "lf",
+  insertPragma: false,
+  jsxBracketSameLine: false,
+  jsxSingleQuote: false,
+  proseWrap: "preserve",
+  quoteProps: "consistent",
+  requirePragma: false,
+  semi: true,
   singleAttributePerLine: false,
+  singleQuote: false,
+  trailingComma: "es5",
+  vueIndentScriptAndStyle: false,
 };
 
 export = config;
