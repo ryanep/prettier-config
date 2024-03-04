@@ -16,8 +16,8 @@
     "lint": "eslint './**/*.{ts,json}'"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.6.0",
-    "@commitlint/config-conventional": "^18.6.0",
+    "@commitlint/cli": "^19.0.3",
+    "@commitlint/config-conventional": "^19.0.3",
     "@ryanep/eslint-config": "^0.10.0",
     "@ryanep/prettier-config": "^1.1.0",
     "@semantic-release/changelog": "^6.0.3",
@@ -26,7 +26,7 @@
     "@semantic-release/npm": "^11.0.2",
     "@semantic-release/release-notes-generator": "^12.1.0",
     "@types/prettier": "^2.7.3",
-    "eslint": "^8.56.0",
+    "eslint": "^8.57.0",
     "prettier": "^3.2.5",
     "semantic-release": "^23.0.2",
     "typescript": "^5.3.3"
