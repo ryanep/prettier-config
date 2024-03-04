@@ -7,7 +7,6 @@ const config: Config = {
   embeddedLanguageFormatting: "auto",
   endOfLine: "lf",
   insertPragma: false,
-  jsxBracketSameLine: false,
   jsxSingleQuote: false,
   proseWrap: "preserve",
   quoteProps: "consistent",
