@@ -13,23 +13,24 @@
   "scripts": {
     "build": "tsc",
     "fmt": "prettier --write .",
-    "lint": "eslint './**/*.{ts,json}'"
+    "lint": "eslint './**/*.{ts,json}'",
+    "release": "semantic-release"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.0.3",
-    "@commitlint/config-conventional": "^19.0.3",
-    "@ryanep/eslint-config": "^0.10.0",
-    "@ryanep/prettier-config": "^1.1.0",
+    "@commitlint/cli": "^19.4.1",
+    "@commitlint/config-conventional": "^19.4.1",
+    "@ryanep/eslint-config": "^1.7.0",
+    "@ryanep/prettier-config": "^1.1.1",
     "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/commit-analyzer": "^13.0.0",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/npm": "^11.0.2",
-    "@semantic-release/release-notes-generator": "^12.1.0",
-    "@types/prettier": "^2.7.3",
+    "@semantic-release/npm": "^12.0.1",
+    "@semantic-release/release-notes-generator": "^14.0.1",
+    "@types/prettier": "^3.0.0",
     "eslint": "^8.57.0",
-    "prettier": "^3.2.5",
-    "semantic-release": "^23.0.2",
-    "typescript": "^5.3.3"
+    "prettier": "^3.3.3",
+    "semantic-release": "^24.1.0",
+    "typescript": "^5.5.4"
   },
   "peerDependencies": {
     "prettier": "^3.x"
