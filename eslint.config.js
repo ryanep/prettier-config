@@ -1,16 +1,10 @@
-const { baseConfig } = require("@ryanep/eslint-config/lib/base");
-const { typescriptConfig } = require("@ryanep/eslint-config/lib/typescript");
+// @ts-check
+import { createConfig } from "@ryanep/eslint-config";
 
-module.exports = [
-  baseConfig,
-  typescriptConfig,
-  {
-    ignores: [
-      "**/node_modules/**",
-      "**/dist/**",
-      "**/build/**",
-      "**/lib/**",
-      "eslint.config.js",
-    ],
-  },
-];
+const eslintConfig = createConfig({
+  isGraphql: false,
+  isNext: false,
+  isTailwind: false,
+});
+
+export default eslintConfig;

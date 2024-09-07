@@ -2,18 +2,25 @@
   "name": "@ryanep/prettier-config",
   "version": "1.1.1",
   "description": "A personal prettier config",
+  "keywords": [
+    "prettier"
+  ],
   "license": "MIT",
   "type": "module",
+  "exports": {
+    ".": {
+      "import": "./lib/index.js",
+      "require": "./lib/index.cjs"
+    }
+  },
   "main": "lib/config.js",
   "files": [
     "lib"
   ],
-  "keywords": [
-    "prettier"
-  ],
   "scripts": {
-    "build": "tsc",
-    "fmt": "prettier --write .",
+    "build": "tsup --format esm,cjs --clean --dts",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "lint": "eslint './**/*.{ts,json}'",
     "release": "semantic-release"
   },
@@ -31,6 +38,7 @@
     "eslint": "^8.57.0",
     "prettier": "^3.3.3",
     "semantic-release": "^24.1.0",
+    "tsup": "^8.2.4",
     "typescript": "^5.5.4"
   },
   "peerDependencies": {
