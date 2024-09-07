@@ -9,8 +9,8 @@
   "type": "module",
   "exports": {
     ".": {
-      "import": "./lib/index.js",
-      "require": "./lib/index.cjs"
+      "import": "./lib/config.js",
+      "require": "./lib/config.cjs"
     }
   },
   "main": "lib/config.js",
